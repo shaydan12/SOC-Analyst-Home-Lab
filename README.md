@@ -8,7 +8,7 @@ In this challenge, I set up a SOC environment  placing a Windows Server and a L
 
 &nbsp;
 
-Having any machine with SSH or RDP open to the internet is a security risk, as it allows anyone which includes attackers to try and break in using methods such as brute force attacks.
+Having any machine with SSH or RDP open to the internet is a security risk, as it allows anyone to try and break in using methods such as brute force attacks.
 
 &nbsp;
 
