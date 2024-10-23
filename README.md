@@ -1,10 +1,10 @@
 ## Introduction
 
-I followed through [MyDFIR's](https://www.youtube.com/channel/UCWoH3f-Yx6TxJfO2O_ezJUw) [30-Day SOC Analyst Challenge](https://youtube.com/playlist?list=PLG6KGSNK4PuBb0OjyDIdACZnb8AoNBeq6), a challenge which helps aspiring SOC analyst gain practical, hands on knowledge and  experience within 1 month.
+I followed through [MyDFIR's](https://www.youtube.com/channel/UCWoH3f-Yx6TxJfO2O_ezJUw) [30-Day SOC Analyst Challenge](https://youtube.com/playlist?list=PLG6KGSNK4PuBb0OjyDIdACZnb8AoNBeq6), a challenge which helps aspiring SOC analyst gain practical, hands on knowledge and experience within 1 month.
 
 &nbsp;
 
-In this challenge, I set up a SOC environment  placing a Windows Server and a Linux Server up in the cloud with SSH and RDP enabled and open to the internet in order to investigate brute force activity.
+In this challenge, I set up a SOC environment placing a Windows Server and a Linux Server up in the cloud with SSH and RDP enabled and open to the internet in order to investigate brute force activity.
 
 &nbsp;
 
@@ -20,7 +20,7 @@ Having any machine with SSH or RDP open to the internet is a security risk, as i
 
 ![image](https://github.com/user-attachments/assets/39dbb3a2-ee6a-4a74-931f-310d29b5f95f)
 
-I installed the Elastic Agents onto the Windows and Linux servers which I want to monitor. The agents are connected to a fleet which manages multiple agents within a centralized location, making configuration and policy creating easier.
+I installed the Elastic Agents onto the Windows and Linux servers that I want to monitor. The agents are connected to a fleet which manages multiple agents within a centralized location, making configuration and policy creation easier.
 
 ![image](https://github.com/user-attachments/assets/aa9828db-1889-4f6c-8259-5a7baba45d49)
 
@@ -34,13 +34,13 @@ I installed the Elastic Agents onto the Windows and Linux servers which I want t
 
 ### **Creating Dashboards**
 
-I created a table that shows what source ip and from what countries most of the brute force attacks are coming from, along with a table that shows information about successful SSH login attempts, (one from myself):
+In the dashboards, I created a table that shows what source IPs and from what countries most of the brute force attacks are coming from, along with a table that shows information about successful SSH login attempts, (one successful SSH login from myself):
 
 ![image](https://github.com/user-attachments/assets/5bc8c65d-cfcc-4741-b75a-9a2e22260899)
 
 &nbsp;
 
-I did the same for RDP login attempts:
+I did the same for both successful and failed RDP login attempts:
 
 ![image](https://github.com/user-attachments/assets/013bc01a-240b-4761-959e-d4d53b933dce)
 
@@ -73,6 +73,7 @@ I created an alert that triggers whenever there is a large amount of authenticat
 
 ## Investigating Brute Force Activity
 
+I did some investigation into one of the IP addresses that was responsible for a large amount of brute force attempts by using online tools.
 ![image](https://github.com/user-attachments/assets/a021fab4-3477-4d44-a878-592d2f739839)
 
 ## Using Elastic Defend EDR
@@ -81,8 +82,10 @@ I created an alert that triggers whenever there is a large amount of authenticat
 
 
 - Place internet facing ports behind a firewall or a VPN
-- Choose a strong password
-- Enable 2FA
+- Use strong passwords
+- Enable Multi-factor authentication
+- Grant only the necesarry permissiosn to users
+- Keep systems up to date
 
 &nbsp;
 
