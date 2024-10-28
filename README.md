@@ -4,7 +4,7 @@ I followed through [MyDFIR's](https://www.youtube.com/channel/UCWoH3f-Yx6TxJfO2O
 
 &nbsp;
 
-In this challenge, I set up a SOC environment placing a Windows Server and a Linux Server up in the cloud with SSH and RDP enabled and open to the internet in order to investigate brute force activity.
+In this challenge, I set up a SOC environment and purposefully placed a Windows Server and a Linux Server up in the cloud with SSH and RDP enabled and open to the internet in order to investigate brute force activity.
 
 &nbsp;
 
