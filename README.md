@@ -53,7 +53,7 @@ I created an alert that triggers whenever there is a large amount of authenticat
 
 ## Investigating Brute Force Activity
 
-I did some investigation into one of the IP addresses that was responsible for a large amount of brute force attempts by using online tools.  
+I did some investigation into one of the IP addresses that was responsible for a large amount of brute force attempts by using online tools such as [AbuseIPDB](https://www.abuseipdb.com/).  
 ![image](https://github.com/user-attachments/assets/a021fab4-3477-4d44-a878-592d2f739839)
 
 ## Using Elastic Defend EDR
