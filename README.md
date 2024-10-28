@@ -2,19 +2,7 @@
 
 I followed through [MyDFIR's](https://www.youtube.com/channel/UCWoH3f-Yx6TxJfO2O_ezJUw) [30-Day SOC Analyst Challenge](https://youtube.com/playlist?list=PLG6KGSNK4PuBb0OjyDIdACZnb8AoNBeq6), a challenge which helps aspiring SOC analyst gain practical, hands on knowledge and experience within 1 month.
 
-&nbsp;
-
 In this challenge, I set up a SOC environment and purposefully placed a Windows Server and a Linux Server up in the cloud with SSH and RDP enabled and open to the internet in order to investigate brute force activity.
-
-&nbsp;
-
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 
 I installed the Elastic Agents onto the Windows and Linux servers that I want to monitor. The agents are connected to a fleet which manages multiple agents within a centralized location, making configuration and policy creation easier.
 
@@ -22,11 +10,7 @@ I installed the Elastic Agents onto the Windows and Linux servers that I want to
 
 &nbsp;
 
-&nbsp;
-
 ## Creating Alerts and Dashboards
-
-&nbsp;
 
 ### **Creating Dashboards**
 
@@ -69,7 +53,7 @@ I created an alert that triggers whenever there is a large amount of authenticat
 
 ## Investigating Brute Force Activity
 
-I did some investigation into one of the IP addresses that was responsible for a large amount of brute force attempts by using online tools.
+I did some investigation into one of the IP addresses that was responsible for a large amount of brute force attempts by using online tools.  
 ![image](https://github.com/user-attachments/assets/a021fab4-3477-4d44-a878-592d2f739839)
 
 ## Using Elastic Defend EDR
@@ -82,9 +66,7 @@ Message after executing mimikatz:
 
 ![image](https://github.com/user-attachments/assets/7674cc13-bd3d-4e4b-b820-91d188111bfc)
 
-
 ## Mitigation and Security Best Practices
-
 
 - Place internet facing ports behind a firewall or a VPN
 - Use strong passwords
