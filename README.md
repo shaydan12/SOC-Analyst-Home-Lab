@@ -16,9 +16,6 @@ Having any machine with SSH or RDP open to the internet is a security risk, as i
 
 &nbsp;
 
-## Logical Diagram
-
-![image](https://github.com/user-attachments/assets/39dbb3a2-ee6a-4a74-931f-310d29b5f95f)
 
 I installed the Elastic Agents onto the Windows and Linux servers that I want to monitor. The agents are connected to a fleet which manages multiple agents within a centralized location, making configuration and policy creation easier.
 
@@ -77,6 +74,15 @@ I did some investigation into one of the IP addresses that was responsible for a
 ![image](https://github.com/user-attachments/assets/a021fab4-3477-4d44-a878-592d2f739839)
 
 ## Using Elastic Defend EDR
+
+I also installed the Elastic EDR onto the Windows Server by utilizing the EDR integration.
+
+Message after executing mimikatz:
+
+![image](https://github.com/user-attachments/assets/bfde68be-ef14-48d7-93ec-6e9115b63fa4)
+
+![image](https://github.com/user-attachments/assets/7674cc13-bd3d-4e4b-b820-91d188111bfc)
+
 
 ## Mitigation and Security Best Practices
 
