@@ -91,13 +91,3 @@ Message after executing mimikatz:
 ![image](https://github.com/user-attachments/assets/bfde68be-ef14-48d7-93ec-6e9115b63fa4)
 
 ![image](https://github.com/user-attachments/assets/7674cc13-bd3d-4e4b-b820-91d188111bfc)
-
-## Mitigation and Security Best Practices
-
-
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
