@@ -1,27 +1,18 @@
 
 # 🔧 What I Did:
-Deployed a Windows Server and Linux Server in the cloud, exposed via SSH and RDP to simulate real-world attack scenarios.
-
-Installed and managed Elastic Agents through Fleet, enabling centralized monitoring.
-
-Built custom Kibana dashboards to visualize brute force activity, including geolocation maps of failed/successful SSH and RDP login attempts.
-
-Created alerting rules to detect brute force attacks and tested them with simulated attacks.
-
-Investigated malicious IPs using external threat intelligence tools.
-
-Integrated Elastic Defend (EDR) to detect post-exploitation tools like Mimikatz.
+- Deployed a Windows Server and Linux Server in the cloud, exposed via SSH and RDP to simulate real-world attack scenarios.
+- Installed and managed Elastic Agents through Fleet, enabling centralized monitoring.
+- Built custom Kibana dashboards to visualize brute force activity, including geolocation maps of failed/successful SSH and RDP login attempts.
+- Created alerting rules to detect brute force attacks and tested them with simulated attacks.
+- Investigated malicious IPs using external threat intelligence tools.
+- Integrated Elastic Defend (EDR) to detect post-exploitation tools like Mimikatz.
 
 # 🧠 What I Learned:
-Real-time threat detection using Elastic Stack
-
-Log and event correlation for SSH/RDP activity
-
-Building detection rules and visualizations
-
-Investigative workflows for brute force and credential-based attacks
-
-Endpoint protection using Elastic EDR
+- Real-time threat detection using Elastic Stack
+- Log and event correlation for SSH/RDP activity
+- Building detection rules and visualizations
+- Investigative workflows for brute force and credential-based attacks
+- Endpoint protection using Elastic EDR
 
 # 🔒 Mitigation and Security Best Practices:
 - Place internet facing ports behind a firewall or a VPN
