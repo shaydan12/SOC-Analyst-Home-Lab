@@ -1,5 +1,5 @@
 
-🔧 What I Did:
+# 🔧 What I Did:
 Deployed a Windows Server and Linux Server in the cloud, exposed via SSH and RDP to simulate real-world attack scenarios.
 
 Installed and managed Elastic Agents through Fleet, enabling centralized monitoring.
@@ -12,7 +12,7 @@ Investigated malicious IPs using external threat intelligence tools.
 
 Integrated Elastic Defend (EDR) to detect post-exploitation tools like Mimikatz.
 
-🧠 What I Learned:
+# 🧠 What I Learned:
 Real-time threat detection using Elastic Stack
 
 Log and event correlation for SSH/RDP activity
@@ -23,15 +23,12 @@ Investigative workflows for brute force and credential-based attacks
 
 Endpoint protection using Elastic EDR
 
-🔒 Security Best Practices Implemented:
-Enforced least privilege access
-
-Recommended MFA and strong password usage
-
-Suggested firewalling or VPN tunneling for remote services
-
-Kept systems patched and hardened
-
+# 🔒 Mitigation and Security Best Practices:
+- Place internet facing ports behind a firewall or a VPN
+- Use strong passwords
+- Enable Multi-factor authentication
+- Grant only the necesarry permissiosn to users
+- Keep systems up to date
 
 
 
@@ -106,11 +103,7 @@ Message after executing mimikatz:
 
 ## Mitigation and Security Best Practices
 
-- Place internet facing ports behind a firewall or a VPN
-- Use strong passwords
-- Enable Multi-factor authentication
-- Grant only the necesarry permissiosn to users
-- Keep systems up to date
+
 
 &nbsp;
 
