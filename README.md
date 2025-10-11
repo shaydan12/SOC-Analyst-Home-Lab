@@ -5,7 +5,7 @@
 - Built custom Kibana dashboards to visualize brute force activity, including geolocation maps of failed/successful SSH and RDP login attempts.
 - Created alerting rules to detect brute force attacks and tested them with simulated attacks.
 - Investigated malicious IPs using external threat intelligence tools.
-- Integrated Elastic Defend (EDR) to detect post-exploitation tools like Mimikatz.
+- Integrated Elastic Defend (EDR) to detect post-exploitation tools like Mimikatz. 
 
 # 🧠 What I Learned:
 - Real-time threat detection using Elastic Stack
